@@ -12,9 +12,9 @@ document.addEventListener('scroll', function(e) {
     var scroll = window.pageYOffset || document.documentElement.scrollTop ||
             document.body.scrollTop || 0;
     // moveText(scroll, img1,text1,box1, 0.54, 0.01);
-    // moveText(scroll, img2,text2,box2, 0.64, 0.43);
-    // moveText(scroll, img3,text3,box3, 0.74, 0.53);
-    moveItems(scroll, img2,text2,box2);
+    moveText(scroll, img2,text2,box2, 0.64, 0.43);
+    moveText(scroll, img3,text3,box3, 0.74, 0.53);
+    // moveItems(scroll, img2,text2,box2);
 
 
     let width =  Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
