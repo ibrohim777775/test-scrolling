@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.img{
+    width: 100%;
+}
+.box{
+    position: relative;
+}
+.box__title{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 0;
+}
+.bigbox{
+    height: 1200px;
+}
+.img{
+    opacity: 0.2;
+}
